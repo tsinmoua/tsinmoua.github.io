@@ -1,0 +1,159 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+    background-image: url(https://image.freepik.com/free-vector/black-dark-3d-low-poly-geometric-background_79145-393.jpg);
+}
+
+.navbar {
+    margin-bottom: 100px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.jumbotron {
+    margin: auto;
+    background-color: white;
+
+}
+
+.display-4 {
+    margin-top: -30px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(78, 179, 179);
+}
+
+.placeholder {
+    float: left;
+    padding-right: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer p {
+    margin: 0;
+}
+
+hr {
+    max-width: auto;
+    height: 5px;
+    background-color: rgb(78, 179, 179);
+    margin-top: 0;
+}
+
+.placeholderport {
+    padding: 19px;
+    float: left;
+    position: relative;
+}
+
+.form-control {
+    width: 80%;
+}
+
+.btn, .btn-primary {
+    background-color: rgb(78, 179, 179);
+    border-color: rgb(78, 179, 179);
+}
+
+input, img {
+    width: 40px;
+    border-radius: 7px;
+}
+
+.links {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+}
+
+p {
+    text-align: center;
+}
+
+.portfolioPages {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+    .jumbotron {
+        max-width: 61.6%;
+        margin: auto;
+    }
+
+    .row {
+        margin: auto;
+    }
+
+    .portfolioPages {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .jumbotron {
+        max-width: 61.6%;
+        margin: auto;
+    }
+    .row {
+        margin: auto;
+    }
+
+    .portfolioPages {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .jumbotron {
+        max-width: 61.6%;
+        margin: auto;
+    }
+
+    .row {
+        margin: auto;
+    }
+
+    .portfolioPages {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
