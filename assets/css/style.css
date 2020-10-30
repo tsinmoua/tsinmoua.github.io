@@ -54,6 +54,16 @@ footer p {
     margin: 0;
 }
 
+.mainFooter {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 hr {
     max-width: auto;
     height: 5px;
@@ -120,6 +130,10 @@ a {
     font-size: large;
 }
 
+.navbar-toggler, .navbar-light {
+    border-color: white !important;
+    border-width: medium !important;
+}
 
 @media screen and (max-width: 992px) {
     .jumbotron {
