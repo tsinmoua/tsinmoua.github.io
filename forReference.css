@@ -1,0 +1,154 @@
+* {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+}
+
+.navbar {
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.navbar-light, .navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-toggler, .navbar-light {
+    border-color: white !important;
+    border-width: medium !important;
+}
+
+#hello {
+    display: block;
+    position: relative;
+    background-image: url("https://images.pexels.com/photos/1906440/pexels-photo-1906440.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hello-container {
+    padding-top: 30%;
+    padding-left: 30%;
+    text-align: left;
+}
+
+#hello h1 {
+    font-size: 200px;
+    text-align: left;
+}
+
+#hello h2 {
+    font-size: 100px;
+    text-align: left;
+}
+
+.about-container, .projects-container, .contact-container {
+    padding-top: 7%;
+}
+
+#about h1, #projects h1, #contact h1 {
+    padding-bottom: 7%;
+}
+
+#about {
+    background-image: url("https://images.pexels.com/photos/5706223/pexels-photo-5706223.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-position: center;
+}
+
+.circle-image {
+    background-image: url("../images/testprofile.jpg");
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+#about p {
+    padding-top: 5%;
+}
+
+#contact {
+    background-image: linear-gradient(white, black);
+}
+
+#contact img {
+    width: auto;
+    vertical-align: middle;
+    height: 60px;
+    border-radius: 7px;
+}
+
+input {
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#contact-information {
+    padding-bottom: 10px;
+}
+
+.github-button {
+    background: url("../images/GitHub\ Repo.png") left center no-repeat;
+    background-color: black !important;
+    background-size: contain;
+    width: 175px;
+    color: red;
+    font-size: 40px;
+    padding: 0 !important;
+    padding-left: 60px !important;
+}
+
+.app-button {
+    background-color: black;
+    color: red;
+    font-size: 40px;
+    padding: 4px 35px 4px 35px;
+    display: inline !important;
+}
+
+.carousel-caption {
+    right: 12% !important;
+    bottom: 20px !important;
+    z-index: 10 !important;
+    padding-bottom: 75px !important;
+    color: black !important;
+    margin: auto !important;
+}
+
+.row {
+    margin: auto;
+}
+
+.card-img-top {
+    height: 50%
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 35px;
+}
