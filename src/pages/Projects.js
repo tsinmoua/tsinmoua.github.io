@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import NavBar from "../components/NavBar/NavBar"
 import Footer from "../components/Footer/Footer"
 
@@ -22,60 +21,59 @@ function Home() {
                         </ol>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                {/* <img src="./assets/images/budgetTracker.jpg" className="d-block w-100 project-images"
-                                alt="Budget Tracker"> */}
+                                <img src="https://via.placeholder.com/150" className="d-block w-100 project-images" alt="Budget Tracker" />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <a href="https://budget-hero.herokuapp.com/" target="_blank"
+                                    <a href="https://budget-hero.herokuapp.com/" target="_blank" rel="noreferrer"
                                         className="btn app-button">App</a>
-                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank"><input
+                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank" rel="noreferrer"><input
                                         type="button" className="github-button btn" value="GitHub" /></a>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                {/* <img src="./assets/images/artistsinthenews.jpg" className="d-block w-100 project-images"
-                                alt="Artists in the News"> */}
+                                <img src="https://via.placeholder.com/150" className="d-block w-100 project-images"
+                                alt="Artists in the News" />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <a href="https://budget-hero.herokuapp.com/" target="_blank"
+                                    <a href="https://budget-hero.herokuapp.com/" target="_blank" rel="noreferrer"
                                         className="btn app-button">App</a>
-                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank"><input
+                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank" rel="noreferrer"><input
                                         type="button" className="github-button btn" value="GitHub" /></a>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                {/* <img src="./assets/images/burger.jpg" className="d-block w-100 project-images" alt="Burger"> */}
+                                <img src="https://via.placeholder.com/150" className="d-block w-100 project-images" alt="Burger" />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <a href="https://budget-hero.herokuapp.com/" target="_blank"
+                                    <a href="https://budget-hero.herokuapp.com/" target="_blank" rel="noreferrer"
                                         className="btn app-button">App</a>
-                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank"><input
+                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank" rel="noreferrer"><input
                                         type="button" className="github-button btn" value="GitHub" /></a>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                {/* <img src="./assets/images/gymquiz.jpg" className="d-block w-100 project-images" alt="Gym Quiz"> */}
+                                <img src="https://via.placeholder.com/150" className="d-block w-100 project-images" alt="Gym Quiz" />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <a href="https://budget-hero.herokuapp.com/" target="_blank"
+                                    <a href="https://budget-hero.herokuapp.com/" target="_blank" rel="noreferrer"
                                         className="btn app-button">App</a>
-                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank"><input
+                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank" rel="noreferrer"><input
                                         type="button" className="github-button btn" value="GitHub" /></a>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                {/* <img src="./assets/images/NoteTaker.jpg" className="d-block w-100 project-images" */}
-                                alt="Note Taker">
+                                <img src="https://via.placeholder.com/150" className="d-block w-100 project-images"
+                                alt="Note Taker" />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <a href="https://budget-hero.herokuapp.com/" target="_blank"
+                                    <a href="https://budget-hero.herokuapp.com/" target="_blank" rel="noreferrer"
                                         className="btn app-button">App</a>
-                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank"><input
+                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank" rel="noreferrer"><input
                                         type="button" className="github-button btn" value="GitHub" /></a>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                {/* <img src="./assets/images/WeatherDashboard.jpg" className="d-block w-100 project-images" */}
-                                alt="Weather Dashboard">
+                                <img src="https://via.placeholder.com/150" className="d-block w-100 project-images"
+                                alt="Weather Dashboard" />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <a href="https://budget-hero.herokuapp.com/" target="_blank"
+                                    <a href="https://budget-hero.herokuapp.com/" target="_blank" rel="noreferrer"
                                         className="btn app-button">App</a>
-                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank"><input
+                                    <a href="https://github.com/ShueMoua/Budget_Tracker" target="_blank" rel="noreferrer"><input
                                         type="button" className="github-button btn" value="GitHub" /></a>
                                 </div>
                             </div>
