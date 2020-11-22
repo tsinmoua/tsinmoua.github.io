@@ -7,7 +7,7 @@ function Home() {
         <div>
             <NavBar />
             
-            <section class="about-container" id="about">
+            <section className="about-container" id="about">
                 <h1>About</h1>
                 <div className="row justify-content-center">
                     <div className="circle-image"></div>
