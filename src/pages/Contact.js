@@ -1,14 +1,15 @@
 import NavBar from "../components/NavBar/NavBar"
 import Footer from "../components/Footer/Footer"
+import Header from "../components/Header/Header"
 
 
 function Home() {
     return (
         <div>
             <NavBar />
-            <section id="contact" className="contact-container">
+            <Header value="Contact" />
 
-                <h1>Contact</h1>
+            <section id="contact" className="contact-container container">
                 <p>Have a project in mind? Lets connect!</p>
 
                 <div id="contact-information" className="row justify-content-center">
@@ -19,11 +20,11 @@ function Home() {
                 </div>
 
                 <div className="links">
-                    <a href="https://www.linkedin.com/in/tsinmoua/" target="_blank"><input type="image"
+                    <a href="https://www.linkedin.com/in/tsinmoua/" target="_blank" rel="noreferrer"><input type="image"
                         src="./assets/images/linkedin.png" alt="LinkedIn Account" /></a>
-                    <a href="https://github.com/tsinmoua" target="_blank"><input type="image"
+                    <a href="https://github.com/tsinmoua" target="_blank" rel="noreferrer"><input type="image"
                         src="./assets/images/github.png" alt="GitHub Account" /></a>
-                    <a href="./assets/images/Tsin Moua Resume.pdf" target="_blank"><input type="image"
+                    <a href="./assets/images/Tsin Moua Resume.pdf" target="_blank" rel="noreferrer"><input type="image"
                         src="./assets/images/resume.png" alt="Resume" /></a>
                 </div>
 

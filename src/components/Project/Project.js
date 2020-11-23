@@ -4,23 +4,9 @@ import projectList from "./ProjectList"
 import Card from "../Card/Card"
 
 function Project() {
-    console.log(projectList);
-
     return (
         <div className="container carousel-container">
             <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel" data-interval="false">
-                <ol className="carousel-indicators">
-                    {
-                        projectList.map((project, index) => {
-                            return (
-                                <li data-target="#carouselExampleCaptions"
-                                    data-slide-to={index}
-                                    key={index}
-                                    className="active"></li>
-                            )
-                        })
-                    }
-                </ol>
 
                 <div className="carousel-inner">
                     {
@@ -28,24 +14,30 @@ function Project() {
                             if (project.active === "active") {
                                 return (
                                     <div className="carousel-item active"
+                                        data-interval="6000"
                                         key={index}>
-                                        <Card 
-                                        src={project.image}
-                                        alt={project.name}
-                                        href={project.app}
-                                        href2={project.github}
+                                        <Card
+                                            title={project.name}
+                                            description={project.description}
+                                            src={project.image}
+                                            alt={project.name}
+                                            href={project.app}
+                                            href2={project.github}
                                         />
                                     </div>
                                 )
                             } else {
                                 return (
                                     <div className="carousel-item"
+                                        data-interval="6000"
                                         key={index}>
-                                        <Card 
-                                        src={project.image}
-                                        alt={project.name}
-                                        href={project.app}
-                                        href2={project.github}
+                                        <Card
+                                            title={project.name}
+                                            description={project.description}
+                                            src={project.image}
+                                            alt={project.name}
+                                            href={project.app}
+                                            href2={project.github}
                                         />
                                     </div>
                                 )

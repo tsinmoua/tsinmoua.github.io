@@ -1,11 +1,11 @@
-import NavBar from "../components/NavBar/NavBar"
-import Footer from "../components/Footer/Footer"
+import NavBar from "../../components/NavBar/NavBar"
+import Footer from "../../components/Footer/Footer"
 import { Link } from "react-router-dom";
-
+import "./style.css"
 
 function Home() {
   return (
-    <div>
+    <div id="hello">
       <NavBar />
       <h1>Hello,</h1>
       <h2>My name is Tsin Moua.</h2>

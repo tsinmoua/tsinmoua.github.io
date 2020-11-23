@@ -1,0 +1,21 @@
+#about {
+    background-image: url("https://images.pexels.com/photos/1022923/pexels-photo-1022923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    display: block;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1% 0 13% 0;
+    overflow-x: hidden;
+}
+
+.circle-image img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20%;
+}
+
+.about-container p {
+    font-size: 30px;
+}
