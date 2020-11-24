@@ -1,24 +1,52 @@
-#hello {
-    display: block;
-    position: relative;
-    background-image: url("https://images.pexels.com/photos/1906440/pexels-photo-1906440.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 #hello h1 {
-    padding: 25% 0% 0% 35%;
-    font-size: 200px;
+    padding: 40vh 0 0 35vw;
+    font-size: 20vh;
     text-align: left;
 }
 
 #hello h2 {
-    padding-left: 35%;
-    font-size: 100px;
+    padding-left: 35vw;
+    font-size: 10vh;
     text-align: left;
 }
 
 button {
-    margin-bottom: 6%;
+    font-size: 2vh !important;
+}
+
+@media screen and (max-width: 992px) {
+    #hello h1 {
+        padding: 40vh 0 0 20vw;
+        font-size: 15vh;
+    }
+
+    #hello h2 {
+        padding-left: 20vw;
+        font-size: 7vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hello h1 {
+        padding: 40vh 0 0 15vw;
+        font-size: 15vh;
+    }
+
+    #hello h2 {
+        padding-left: 15vw;
+        font-size: 7vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #hello h1 {
+        font-size: 10vh;
+        padding: 30 0 0 10;
+    }
+
+    #hello h2 {
+        font-size: 5vh;
+        padding: 0 0 0 10;
+    }
 }
