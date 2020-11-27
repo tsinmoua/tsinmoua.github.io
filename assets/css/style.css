@@ -92,7 +92,7 @@ html:active, body:active, .docSlider:active, .docSlider-inner:active, .docSlider
     width: inherit;
     overflow: auto;
     position: absolute;
-    overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 }
 
 .navbar {
