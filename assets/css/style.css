@@ -209,8 +209,14 @@ h3 {
     transform: scale(1.5);
 }
 
-.card-body {
-    background-color: lightgray;
+/* .card-body { */
+    /* background-color: lightgray; */
+    /* background-color: transparent; */
+/* } */
+
+.card{
+    background-color: transparent;
+    border: none;
 }
 
 .github-button {
