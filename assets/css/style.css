@@ -132,8 +132,8 @@ html:active, body:active, .docSlider:active, .docSlider-inner:active, .docSlider
     text-align: left;
 }
 
-.about-container, .projects-container, .contact-container {
-    padding-top: 7%;
+.about-container, .projects-container, .contact-container, .skills-container {
+    padding-top: 5%;
 }
 
 #about {
@@ -155,6 +155,21 @@ html:active, body:active, .docSlider:active, .docSlider-inner:active, .docSlider
     padding-top: 1%;
 }
 
+#skills {
+    background-image: url("https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    background-size: cover;
+}
+
+#skills span {
+    color: white;
+    font-weight: normal;
+}
+
+#skills h2 {
+    margin: 5px;
+}
+
 #projects {
     background-image: url("https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
@@ -163,6 +178,7 @@ html:active, body:active, .docSlider:active, .docSlider-inner:active, .docSlider
 .carousel-container {
     width: 50%;
 }
+
 
 .links input {
     height: 50px;
@@ -223,17 +239,18 @@ h3 {
     background: url("../images/GitHubRepo.png") left center no-repeat;
     background-color: black !important;
     background-size: contain;
-    width: 175px;
-    color: red;
-    font-size: 40px;
+    width: 93.72px;
+    height: 30px;
+    color: white;
+    /* font-size: 40px; */
     padding: 0 !important;
-    padding-left: 60px !important;
+    padding-left: 15px !important;
 }
 
 .app-button {
     background-color: black;
-    color: red;
-    font-size: 40px;
+    color: white;
+    /* font-size: 40px; */
     padding: 4px 35px 4px 35px;
     display: inline !important;
 }
