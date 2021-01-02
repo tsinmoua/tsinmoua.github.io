@@ -6,7 +6,7 @@ import Flash from 'react-reveal/Flash';
 import about from '../assets/About.png'
 import tools from '../assets/Tools.png'
 import projects from '../assets/Projects.png'
-import contact from '../assets/contact.png'
+import contact from '../assets/contact.png' 
 
 const useStyles = makeStyles((theme) => ({
 
