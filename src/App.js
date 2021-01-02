@@ -16,7 +16,7 @@ function App() {
   return (
     <React.Fragment>
       <ThemeProvider theme={Theme}>
-        <BrowserRouter>
+        <BrowserRouter basename='/'>
           <ScrollToTop />
           <Switch>
             <Navbar>
