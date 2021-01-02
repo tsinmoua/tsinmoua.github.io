@@ -188,7 +188,7 @@ const useStyles = makeStyles((theme) => ({
     padding: 0,
   },
   dialogRoot: {
-      paddingTop: '5rem'
+    paddingTop: '5rem'
   },
   imageText: {
     textAlign: 'center',
@@ -205,8 +205,39 @@ const useStyles = makeStyles((theme) => ({
     transition: 'opacity .5s, visibility .5s',
     '&:hover': {
       opacity: 1,
-    }
+    },
+    [theme.breakpoints.down("1500")]: {
+      fontSize: '4rem',
+      padding: '2rem',
+    },
+    [theme.breakpoints.down("960")]: {
+      fontSize: '3rem',
+      padding: '2rem',
+    },
+    [theme.breakpoints.down("760")]: {
+      fontSize: '4rem',
+      padding: '2rem',
+    },
+    [theme.breakpoints.down("600")]: {
+      fontSize: '2rem',
+      padding: '1rem',
+    },
   },
+  learnMoreImage: {
+    width: '10rem',
+    [theme.breakpoints.down("1500")]: {
+      width: '6rem',
+    },
+    [theme.breakpoints.down("960")]: {
+      width: '4rem',
+    },
+    [theme.breakpoints.down("760")]: {
+      width: '10rem',
+    },
+    [theme.breakpoints.down("600")]: {
+      width: '4rem',
+    },
+  }
 
 }))
 
@@ -260,7 +291,7 @@ const Projects = () => {
                     />
                     <Typography variant='h1' className={classes.imageText}>
                       Learn more<br />
-                      <img src={click} alt='Click' style={{ width: '10rem' }} />
+                      <img src={click} alt='Click' className={classes.learnMoreImage} />
                     </Typography>
                   </CardActionArea>
                 </Card>
