@@ -2,11 +2,12 @@ import React, { useState } from "react"
 import { Button, Grid, makeStyles, Typography, } from "@material-ui/core";
 import { Link } from 'react-router-dom'
 import Flash from 'react-reveal/Flash';
+import Typewriter from 'typewriter-effect';
 
 import about from '../assets/About.png'
 import tools from '../assets/Tools.png'
 import projects from '../assets/Projects.png'
-import contact from '../assets/contact.png' 
+import contact from '../assets/contact.png'
 
 const useStyles = makeStyles((theme) => ({
 
@@ -90,6 +91,9 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
+
+
+
 const Home = () => {
   const classes = useStyles();
   const [counter, setCounter] = useState(0)
@@ -101,11 +105,12 @@ const Home = () => {
 
       <Grid container justify='center' alignItems='center' className={classes.helloContainer} >
         <Flash spy={counter}>
-          <Typography variant='h1' className={classes.helloText}>
-            <span className={classes.hello}>Hello,</span><br />
+        <Typography variant='h1' className={classes.helloText}>
+          <span className={classes.hello}>Hello,</span><br />
             My name is Tsin.
-          </Typography>
+        </Typography>
         </Flash>
+
       </Grid>
 
       <Grid container className={classes.info}>

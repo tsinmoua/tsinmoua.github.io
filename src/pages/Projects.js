@@ -188,7 +188,7 @@ const useStyles = makeStyles((theme) => ({
     padding: 0,
   },
   dialogRoot: {
-    paddingTop: '5rem'
+    paddingTop: '5rem !important'
   },
   imageText: {
     textAlign: 'center',
