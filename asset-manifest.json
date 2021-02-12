@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.81dd5073.chunk.js",
-    "main.js.map": "/static/js/main.81dd5073.chunk.js.map",
+    "main.js": "/static/js/main.af09c4f8.chunk.js",
+    "main.js.map": "/static/js/main.af09c4f8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/js/2.6ba34114.chunk.js": "/static/js/2.6ba34114.chunk.js",
@@ -30,6 +30,7 @@
     "static/media/SQL.ebd9ece0.png": "/static/media/SQL.ebd9ece0.png",
     "static/media/Sequelize.844fb918.png": "/static/media/Sequelize.844fb918.png",
     "static/media/TheLibrary.a1c5a5ed.png": "/static/media/TheLibrary.a1c5a5ed.png",
+    "static/media/TheShoppies.d6a30d72.png": "/static/media/TheShoppies.d6a30d72.png",
     "static/media/Tools.20247de0.png": "/static/media/Tools.20247de0.png",
     "static/media/TsinMouaResume.46ee68f3.pdf": "/static/media/TsinMouaResume.46ee68f3.pdf",
     "static/media/WeatherDashboard.0ba0d044.png": "/static/media/WeatherDashboard.0ba0d044.png",
@@ -41,11 +42,13 @@
     "static/media/github_link.87e5c94a.png": "/static/media/github_link.87e5c94a.png",
     "static/media/jQuery.519477ca.png": "/static/media/jQuery.519477ca.png",
     "static/media/linkedin.cb7ced2a.png": "/static/media/linkedin.cb7ced2a.png",
-    "static/media/resume.c86bc29e.png": "/static/media/resume.c86bc29e.png"
+    "static/media/python.f0c9d647.png": "/static/media/python.f0c9d647.png",
+    "static/media/resume.c86bc29e.png": "/static/media/resume.c86bc29e.png",
+    "static/media/sass.95b95881.png": "/static/media/sass.95b95881.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/js/2.6ba34114.chunk.js",
-    "static/js/main.81dd5073.chunk.js"
+    "static/js/main.af09c4f8.chunk.js"
   ]
 }
