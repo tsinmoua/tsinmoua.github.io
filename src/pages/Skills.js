@@ -22,11 +22,15 @@ import react from "../assets/React.png";
 import Sequelize from "../assets/Sequelize.png";
 import SQL from "../assets/SQL.png";
 import Webpack from "../assets/Webpack.png";
+import Python from "../assets/python.png";
+import Sass from "../assets/sass.png";
 
 const images = [
   { image: HTML, caption: 'HTML' },
   { image: CSS, caption: 'CSS' },
   { image: JavaScript, caption: 'JavaScript' },
+  { image: Python, caption: 'Python' },
+  { image: Sass, caption: 'Sass' },
   { image: jQuery, caption: 'jQuery' },
   { image: Node, caption: 'Node' },
   { image: Express, caption: 'Express' },
@@ -56,6 +60,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   headerText: {
+    textAlign: 'center',
     fontSize: '10rem',
     fontWeight: 'bolder',
     color: theme.palette.secondary.main,

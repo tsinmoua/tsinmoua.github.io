@@ -8,6 +8,7 @@ import {
 } from "@material-ui/core";
 import ClearIcon from '@material-ui/icons/Clear';
 
+import TheShoppies from '../assets/TheShoppies.png'
 import MachliFitness from '../assets/MachliFitness.png'
 import BudgetTracker from '../assets/BudgetTracker.png'
 import EmployeeDirectory from '../assets/EmployeeDirectory.png'
@@ -65,6 +66,14 @@ const tools = {
 }
 
 const projects = [
+  {
+    image: TheShoppies, name: 'The Shoppies', id: 'TheShoppies',
+    text: 'Nominate your favorite films and see how it compares to what others think',
+    tools: [tools.Node, tools.GitHub, tools.Heroku, tools.MaterialUI, tools.react, tools.Express, tools.MongoDB, tools.Mongoose],
+    other: ['local storage'],
+    github: 'https://github.com/tsinmoua/The-Shoppies',
+    app: 'https://the-shoppies-5.herokuapp.com/',
+  },
   {
     image: MachliFitness, name: 'Machli Fitness', id: 'MachliFitness',
     text: 'A platform for personal trainers to connect to their clients',
