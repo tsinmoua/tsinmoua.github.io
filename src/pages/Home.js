@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import { Button, Grid, makeStyles, Typography, } from "@material-ui/core";
 import { Link } from 'react-router-dom'
 import Flash from 'react-reveal/Flash';
-import Typewriter from 'typewriter-effect';
 
 import about from '../assets/About.png'
 import tools from '../assets/Tools.png'
@@ -13,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
 
   helloContainer: {
     backgroundImage: 'linear-gradient(#004080, black)',
-    height: '90vh',
+    height: '91vh',
   },
   hello: {
     fontSize: '250%',

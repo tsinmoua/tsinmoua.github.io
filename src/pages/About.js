@@ -84,7 +84,7 @@ const About = () => {
             The critical thinking and problem solving skills learned from being an Accountant helps me bring the vision to life.
             <br /><br />
             Based in Saint Paul, Minnesota and obtained my certificate from the University of Minnesota.
-            Always looking to learn more whenever possible.
+            Always interested in the opportunity for continued learning and professional development.
           </Typography>
           </Grid>
           <Grid item>
@@ -101,7 +101,7 @@ const About = () => {
               <span style={{ fontWeight: 'bold' }}>Outside of coding</span><br /><br />
             Health and fitness is another passion of mine.
             I try to stay active in my free time and enjoy bodybuilding.
-            The rest of the time you can catch me traveling, spending time with my wife and soon to be born daughter.
+            The rest of the time you can catch me traveling, spending time with my wife and newborn daughter.
           </Typography>
           </Grid>
         </Grid>
