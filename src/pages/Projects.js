@@ -112,7 +112,7 @@ const projects = [
     tools: [tools.Node, tools.GitHub, tools.Heroku, tools.Express, tools.MongoDB, tools.Mongoose],
     other: ['N/A'],
     github: 'https://github.com/tsinmoua/Workout-Tracker',
-    app: 'https://shrouded-temple-07479.herokuapp.com/',
+    app: 'https://nist-workout-tracker.herokuapp.com/',
   },
   {
     image: WeatherDashboard, name: 'Weather Dashboard', id: 'WeatherDashboard',
