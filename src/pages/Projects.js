@@ -96,7 +96,7 @@ const projects = [
     tools: [tools.Node, tools.GitHub, tools.Heroku, tools.Bootstrap, tools.react],
     other: ['axios,', 'RandomUser API'],
     github: 'https://github.com/tsinmoua/Employee-Directory',
-    app: 'https://desolate-ocean-52390.herokuapp.com/',
+    app: 'https://nist-employee-directory.herokuapp.com/',
   },
   {
     image: TheLibrary, name: 'The Library', id: 'TheLibrary',
