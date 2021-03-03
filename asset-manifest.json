@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.ef02714c.chunk.js",
-    "main.js.map": "/static/js/main.ef02714c.chunk.js.map",
+    "main.js": "/static/js/main.04f56762.chunk.js",
+    "main.js.map": "/static/js/main.04f56762.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
-    "static/js/2.6ba34114.chunk.js": "/static/js/2.6ba34114.chunk.js",
-    "static/js/2.6ba34114.chunk.js.map": "/static/js/2.6ba34114.chunk.js.map",
+    "static/js/2.e34f25d8.chunk.js": "/static/js/2.e34f25d8.chunk.js",
+    "static/js/2.e34f25d8.chunk.js.map": "/static/js/2.e34f25d8.chunk.js.map",
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
-    "static/js/2.6ba34114.chunk.js.LICENSE.txt": "/static/js/2.6ba34114.chunk.js.LICENSE.txt",
+    "static/js/2.e34f25d8.chunk.js.LICENSE.txt": "/static/js/2.e34f25d8.chunk.js.LICENSE.txt",
     "static/media/About.89cefb2d.png": "/static/media/About.89cefb2d.png",
     "static/media/BudgetTracker.5b726926.png": "/static/media/BudgetTracker.5b726926.png",
     "static/media/CSS.59358595.png": "/static/media/CSS.59358595.png",
@@ -48,7 +48,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
-    "static/js/2.6ba34114.chunk.js",
-    "static/js/main.ef02714c.chunk.js"
+    "static/js/2.e34f25d8.chunk.js",
+    "static/js/main.04f56762.chunk.js"
   ]
 }
