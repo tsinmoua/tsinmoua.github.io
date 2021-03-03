@@ -4,7 +4,7 @@ import {
   makeStyles, Typography,
   Card, CardActionArea, CardMedia,
   Button, useTheme, useMediaQuery,
-  Dialog, DialogContent, DialogActions,
+  Dialog, DialogContent, DialogActions, Tooltip,
 } from "@material-ui/core";
 import ClearIcon from '@material-ui/icons/Clear';
 
@@ -358,20 +358,24 @@ const Projects = () => {
 
                     <DialogActions>
                       <Grid container justify='center' >
-                        <Button color="primary" variant='contained'
-                          style={{ marginRight: '.5rem', height: '32px' }} className={classes.button}
-                        >
-                          <a href={project.github} target='_blank' rel='noreferrer' style={{ height: '32px' }}>
-                            <img src={repo} alt='Github' className={classes.buttonImage} />
-                          </a>
-                        </Button>
-                        <Button color="primary" variant='contained' style={{ height: '32px', padding: 0, }}
-                          className={classes.button}
-                        >
-                          <a href={project.app} target='_blank' rel='noreferrer' style={{ height: '32px' }}>
-                            <img src={external} alt='Application' className={classes.buttonImage} style={{ height: '24px', width: '24px', paddingTop: '4px' }} />
-                          </a>
-                        </Button>
+                        <Tooltip title='GitHub Repo' placement='top'>
+                          <Button color="primary" variant='contained'
+                            style={{ marginRight: '.5rem', height: '32px' }} className={classes.button}
+                          >
+                            <a href={project.github} target='_blank' rel='noreferrer' style={{ height: '32px' }}>
+                              <img src={repo} alt='Github' className={classes.buttonImage} />
+                            </a>
+                          </Button>
+                        </Tooltip>
+                        <Tooltip title='Application' placement='top'>
+                          <Button color="primary" variant='contained' style={{ height: '32px', padding: 0, }}
+                            className={classes.button}
+                          >
+                            <a href={project.app} target='_blank' rel='noreferrer' style={{ height: '32px' }}>
+                              <img src={external} alt='Application' className={classes.buttonImage} style={{ height: '24px', width: '24px', paddingTop: '4px' }} />
+                            </a>
+                          </Button>
+                        </Tooltip>
                       </Grid>
                     </DialogActions>
 
